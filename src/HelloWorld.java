@@ -14,8 +14,13 @@ public class HelloWorld {
         System.out.println("New function is executed");
     }
 
+    public static void runNewFunctionWithParameters(String s) {
+        System.out.println(s + " is the given string param");
+    }
+
     public static void main(String[] args) {
         System.out.println(runIfElse(10));
         runNewFunction();
+        runNewFunctionWithParameters("Tea Time");
     }
 }
