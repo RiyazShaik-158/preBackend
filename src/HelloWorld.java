@@ -10,7 +10,12 @@ public class HelloWorld {
         }
     }
 
+    public static void runNewFunction() {
+        System.out.println("New function is executed");
+    }
+
     public static void main(String[] args) {
         System.out.println(runIfElse(10));
+        runNewFunction();
     }
 }
