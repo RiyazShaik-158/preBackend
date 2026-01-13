@@ -25,10 +25,14 @@ public class HelloWorld {
     }
 
 
+    public static double calculatePower(double number, double powerValue) {
+        return Math.pow(number,powerValue);
+    }
     public static void main(String[] args) {
         System.out.println(runIfElse(10));
         runNewFunction();
         runNewFunctionWithParameters("Tea Time");
         System.out.println("Your meal total price is " + calculateCostOfMeal(20, 0.1, 1.0));
+        System.out.println(calculatePower(2,10));
     }
 }
