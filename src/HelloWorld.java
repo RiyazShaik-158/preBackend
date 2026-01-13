@@ -31,6 +31,9 @@ public class HelloWorld {
 
     public static double employeeYearlySalary(double hoursPerWeek, double amountPerhour) {
 //        there are 52 weeks in an year
+        if(hoursPerWeek < 0 || amountPerhour < 0) {
+            return 0;
+        }
         return hoursPerWeek * 52 * amountPerhour;
 
     }
@@ -40,6 +43,7 @@ public class HelloWorld {
         runNewFunctionWithParameters("Tea Time");
         System.out.println("Your meal total price is " + calculateCostOfMeal(20, 0.1, 1.0));
         System.out.println(calculatePower(2,10));
-        System.out.println(employeeYearlySalary(40,20));
+        System.out.println(employeeYearlySalary(40,-1
+        ));
     }
 }
