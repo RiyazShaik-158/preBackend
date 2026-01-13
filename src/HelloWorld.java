@@ -28,11 +28,18 @@ public class HelloWorld {
     public static double calculatePower(double number, double powerValue) {
         return Math.pow(number,powerValue);
     }
+
+    public static double employeeYearlySalary(double hoursPerWeek, double amountPerhour) {
+//        there are 52 weeks in an year
+        return hoursPerWeek * 52 * amountPerhour;
+
+    }
     public static void main(String[] args) {
         System.out.println(runIfElse(10));
         runNewFunction();
         runNewFunctionWithParameters("Tea Time");
         System.out.println("Your meal total price is " + calculateCostOfMeal(20, 0.1, 1.0));
         System.out.println(calculatePower(2,10));
+        System.out.println(employeeYearlySalary(40,20));
     }
 }
