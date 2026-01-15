@@ -19,3 +19,6 @@ public class Triangle {
     }
 
 }
+
+//class is like a blueprint - here blueprint for triangle, instance methods, instance variables part of blueprint
+//static class variables - part of class only, no instance needed, just can use ClassName.staticVariable
