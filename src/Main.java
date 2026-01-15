@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Area of second triangle is " + Area2);
         System.out.println(baseOfTriangleA);
         System.out.println(baseOfTriangleB);
-        System.out.println(Triangle.numOfSides); //use whole class as reference for static variables, not the instance
+        System.out.println(Triangle.numOfSides);
 
     }
 }
